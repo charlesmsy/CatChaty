@@ -10,7 +10,7 @@ public class ShareViewModel extends ViewModel {
 
     public ShareViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is share fragment");
+        mText.setValue("This is share fragment that needs to be replace with Halp activity");
     }
 
     public LiveData<String> getText() {
