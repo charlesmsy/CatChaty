@@ -1,5 +1,6 @@
 package com.example.catchat;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
@@ -64,5 +65,17 @@ public class MainActivity extends AppCompatActivity {
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment);
         return NavigationUI.navigateUp(navController, mAppBarConfiguration)
                 || super.onSupportNavigateUp();
+    }
+
+    public void HalpToActivity(){
+        //TODO: Use an explicit Intent to invoke the ReceiveMessageActivity with the message
+        Intent HalpActivity = new Intent(getApplicationContext(),HalpActivity.class);
+        startActivity(HalpActivity);
+    }
+
+    public void FeedbackToActivity(){
+        //TODO: Use an explicit Intent to invoke the ReceiveMessageActivity with the message
+        Intent FeedbackActivity = new Intent(getApplicationContext(),FeedbackActivity.class);
+        startActivity(FeedbackActivity);
     }
 }
