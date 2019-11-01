@@ -1,16 +1,16 @@
-package com.example.catchat.ui.share;
+package com.example.catchat.ui.Feedback;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-public class ShareViewModel extends ViewModel {
+public class FeedbackViewModel extends ViewModel {
 
     private MutableLiveData<String> mText;
 
-    public ShareViewModel() {
+    public FeedbackViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is share fragment that needs to be replace with Halp activity");
+        mText.setValue("This is Feedback fragment that needs to be replace with Feedback activity");
     }
 
     public LiveData<String> getText() {

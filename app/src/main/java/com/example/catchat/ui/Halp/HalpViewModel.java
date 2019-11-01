@@ -1,16 +1,16 @@
-package com.example.catchat.ui.send;
+package com.example.catchat.ui.Halp;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-public class SendViewModel extends ViewModel {
+public class HalpViewModel extends ViewModel {
 
     private MutableLiveData<String> mText;
 
-    public SendViewModel() {
+    public HalpViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is send fragment that need to be replace with feedback activity");
+        mText.setValue("This is Halp fragment that needs to be replace with Halp activity");
     }
 
     public LiveData<String> getText() {

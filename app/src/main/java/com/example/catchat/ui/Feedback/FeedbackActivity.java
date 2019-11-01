@@ -1,14 +1,16 @@
-package com.example.catchat;
+package com.example.catchat.ui.Feedback;
 
 import android.app.Activity;
 import android.os.Bundle;
 
-public class HalpActivity extends Activity {
+import com.example.catchat.R;
+
+public class FeedbackActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.halp_acivity_main);
+        setContentView(R.layout.feedback_acivity_main);
 
     }
 

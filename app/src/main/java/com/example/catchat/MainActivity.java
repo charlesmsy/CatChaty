@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
         // Passing each menu ID as a set of Ids because each
         // menu should be considered as top level destinations.
         mAppBarConfiguration = new AppBarConfiguration.Builder(
-                R.id.nav_mesagez, R.id.nav_draftz, R.id.nav_sentmesagez, R.id.nav_indatrash, R.id.nav_share, R.id.nav_send)
+                R.id.nav_mesagez, R.id.nav_draftz, R.id.nav_sentmesagez, R.id.nav_indatrash, R.id.nav_halp, R.id.nav_feedback)
                 .setDrawerLayout(drawer)
                 .build();
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment);
@@ -67,15 +67,13 @@ public class MainActivity extends AppCompatActivity {
                 || super.onSupportNavigateUp();
     }
 
-    public void HalpToActivity(){
-        //TODO: Use an explicit Intent to invoke the ReceiveMessageActivity with the message
-        Intent HalpActivity = new Intent(getApplicationContext(),HalpActivity.class);
-        startActivity(HalpActivity);
-    }
+    //public void HalpToActivity(){
+    //    Intent HalpActivity = new Intent(getApplicationContext(),HalpActivity.class);
+    //    startActivity(HalpActivity);
+    //}
 
-    public void FeedbackToActivity(){
-        //TODO: Use an explicit Intent to invoke the ReceiveMessageActivity with the message
-        Intent FeedbackActivity = new Intent(getApplicationContext(),FeedbackActivity.class);
-        startActivity(FeedbackActivity);
-    }
+    //public void FeedbackToActivity(){
+    //    Intent FeedbackActivity = new Intent(getApplicationContext(),FeedbackActivity.class);
+    //    startActivity(FeedbackActivity);
+    //}
 }

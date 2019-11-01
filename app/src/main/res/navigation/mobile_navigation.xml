@@ -5,7 +5,10 @@
     android:id="@+id/mobile_navigation"
     app:startDestination="@+id/nav_mesagez">
 
-
+    <fragment
+        android:id="@+id/nav_host_fragment"
+        android:label="33423452"
+        tools:layout="@layout/content_main" />
     <fragment
         android:id="@+id/nav_mesagez"
         android:name="com.example.catchat.ui.Mesagez.MesagezFragment"
@@ -29,15 +32,15 @@
         tools:layout="@layout/in_da_trash_fragment" />
 
     <fragment
-        android:id="@+id/nav_share"
-        android:name="com.example.catchat.ui.share.ShareFragment"
-        android:label="@string/menu_share"
-        tools:layout="@layout/fragment_share" />
+        android:id="@+id/nav_halp"
+        android:name="com.example.catchat.ui.Halp.HalpFragment"
+        android:label="@string/menu_halp"
+        tools:layout="@layout/halp_fragment" />
 
     <fragment
-        android:id="@+id/nav_send"
-        android:name="com.example.catchat.ui.send.SendFragment"
-        android:label="@string/menu_send"
-        tools:layout="@layout/fragment_send" />
+        android:id="@+id/nav_feedback"
+        android:name="com.example.catchat.ui.Feedback.FeedbackFragment"
+        android:label="@string/menu_feedback"
+        tools:layout="@layout/feedback_fragment" />
 
 </navigation>
