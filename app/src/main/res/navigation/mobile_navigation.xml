@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_mesagez">
+
+
+    <fragment
+        android:id="@+id/nav_mesagez"
+        android:name="com.example.catchat.ui.Mesagez.MesagezFragment"
+        android:label="@string/menu_mesagez"
+        tools:layout="@layout/mesagez_fragment" />
+    <fragment
+        android:id="@+id/nav_draftz"
+        android:name="com.example.catchat.ui.Draftz.DraftzFragment"
+        android:label="@string/menu_draftz"
+        tools:layout="@layout/draftz_fragment" />
+
+    <fragment
+        android:id="@+id/nav_sentmesagez"
+        android:name="com.example.catchat.ui.SentMesagez.SentMesagezFragment"
+        android:label="@string/menu_sentmesagez"
+        tools:layout="@layout/sent_mesagez_fragment" />
+    <fragment
+        android:id="@+id/nav_indatrash"
+        android:name="com.example.catchat.ui.InDaTrash.InDaTrashFragment"
+        android:label="@string/menu_indatrash"
+        tools:layout="@layout/in_da_trash_fragment" />
+
+
+    <fragment
+        android:id="@+id/nav_share"
+        android:name="com.example.catchat.ui.share.ShareFragment"
+        android:label="@string/menu_share"
+        tools:layout="@layout/fragment_share" />
+
+    <fragment
+        android:id="@+id/nav_send"
+        android:name="com.example.catchat.ui.send.SendFragment"
+        android:label="@string/menu_send"
+        tools:layout="@layout/fragment_send" />
+
+</navigation>

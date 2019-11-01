@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">CatChat</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">CatChat</string>
+    <string name="nav_header_subtitle">spot@catchat.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_mesagez">Mesagez</string>
+    <string name="menu_draftz">Draftz</string>
+    <string name="menu_sentmesagez">Sent mesagez</string>
+    <string name="menu_indatrash">In da trash</string>
+    <string name="menu_support">Support</string>
+    <string name="menu_halp">Halp</string>
+    <string name="menu_feedback">Giv us feedback</string>
+
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+
+
+</resources>
